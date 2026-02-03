@@ -12,3 +12,5 @@
 Mainly the github repository deployment since it is my first time deploying a website from my GitHub.  
 Another is the figma feature where you can see the CSS style elements inside it. It is a game changer  
 to me.
+
+**References:** https://docs.google.com/document/d/1GAhUFoz4Hd-Q3Nxcca6I3jMpImBXHf2JlsnHcTTiLDI/edit?usp=sharing  
