@@ -1,6 +1,6 @@
 **Name:** Cody James Dela Cruz  
 **Degree Program:** Computer Science  
-**Live Website Link:** https://github.com/CMSC100-Laboratory/02-my-github-page-codyjamesDC.git  
+**Live Website Link:** https://cmsc100-laboratory.github.io/02-my-github-page-codyjamesDC/
 
 **Steps on how to create Github page**  
 **1. Push your html (named index.htmnl) file into your repo**  
