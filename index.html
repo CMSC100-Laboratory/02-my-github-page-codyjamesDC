@@ -1,43 +1,149 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
 
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-
-    <body>
-        <div class="content-container">
-            <div class="header">
-                <h1 class="logo">Cody</h1>
-
-                <nav class="navbar">
-                    <a href="index.html" class="active">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="experience.html">Projects</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-
-                <div class="header-right">
-                    <a href="#" class="btn-talk">Let's Talk</a>
-                </div>
-            </div>
-
-            <div>
-                <h2>Hi! I am</h2>
-                <h1>
-                    Cody James Dela Cruz
-                </h1>
-                <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui libero ipsa eos molestias minima repellat, quidem obcaecati vel saepe atque sint iure voluptatibus, incidunt ab nostrum neque quisquam consequuntur doloribus!
-                </div>
-            </div>
-
-            <div>
-                <h1>Image</h1>
-            </div>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Cody</a>
         </div>
-    </body>
+            
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
 
-</html> 
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:cbdelacruz10@up.edu.ph">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--SECTION 1: Main page-->
+        <section class="mainpage">
+            <div class="text">
+                <h2>Hi! I'm Cody 👊</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum recusandae vitae numquam veritatis suscipit sit illum fugit culpa ullam corrupti delectus molestias quibusdam, blanditiis non eveniet earum facilis aperiam dolore expedita minus? Eum consequuntur cupiditate voluptatem non aut nemo ipsum molestias praesentium ratione, maxime possimus, recusandae pariatur! Id, distinctio modi.</p>
+            
+                <div class="links">
+                    <a href="#links">
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#contacts">
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="images/cody-delacruz.jpg" alt="Cody James Dela Cruz">
+            </div>
+
+        </section>
+
+        <!--SECTION 2: Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium consectetur ratione aspernatur recusandae tempora. Quibusdam nulla amet, aliquid animi dolorem officiis adipisci sequi, id corporis dolor similique in commodi dignissimos!</p>
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html.png" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css.png" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/python.png" alt="Python logo">
+                    <span>Python</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/c.png" alt="C logo">
+                    <span>C</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/r.png" alt="R logo">
+                    <span>R</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/java.png" alt="java logo">
+                    <span>Java</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/figma.png" alt="Figma logo">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 3: Projects-->
+        <section id="projects">
+            <div class="card-containers">
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="card-content">
+                        <h3>Card 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, error consequuntur id dolore sunt esse numquam harum deserunt perferendis rerum?</p>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="card-content">
+                        <h3>Card 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, error consequuntur id dolore sunt esse numquam harum deserunt perferendis rerum?</p>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="card-content">
+                        <h3>Card 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, error consequuntur id dolore sunt esse numquam harum deserunt perferendis rerum?</p>
+                        <a href="" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 4: Contact-->
+        <section id="contacts">
+
+        </section>
+    </main>
+</body>
+</html>
