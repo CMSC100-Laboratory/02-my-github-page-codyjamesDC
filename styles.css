@@ -25,7 +25,7 @@ a {
 header {
     position: relative; /* Anchor for the logo */
     width: 100%;
-    padding: 20px 50px
+    padding: 20px 50px;
 }
 
 .header-top {
@@ -39,6 +39,10 @@ header {
     width: 200px;
     height: auto;
     z-index: 10;
+}
+
+.logo-container img:hover {
+    transform: translateY(-5px);
 }
 
 .header-nav {
@@ -57,11 +61,24 @@ header {
     color: black;
 }
 
+.header-nav .right a:hover{
+    color: #7D4E57;
+}
+
+
 .header-nav .right a:last-child{
     background-color: black;
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+.header-nav .right a:last-child:hover{
+    background-color: white;
+    color: #7D4E57;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.2s;
 }
 
 .header-nav .right a span{
@@ -73,15 +90,17 @@ header {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 10px 50px;
     margin: 50px 0;
     align-items: center;
     gap: 40px;
     margin-bottom: 100px;
+    background-color: #484A47;
 }
 
 .mainpage .text {
-    flex: 5
+    flex: 5;
+    color: white;
 }
 
 .mainpage .text h2{
@@ -110,14 +129,15 @@ header {
     margin: 0 20px 10px 0;
     transition: 0.1s;
     color: #364156;
+    background-color: white;
 }
 
 .mainpage .text .links a:hover{
-    border-color: #D66853;
+    background-color: #364156;
 }
 
 .mainpage .text .links a:hover span{
-    color: #D66853;
+    color: #ffffff;
 }
 
 .mainpage .image {
@@ -128,7 +148,15 @@ header {
 
 .mainpage .image img{
     width: 350px;
-    border-radius: 50%;
+    border-radius: 100%;
+}
+
+.mainpage .image img:hover{
+    width: 350px;
+    transform: translateY(-5px);
+    border-radius: 0%;
+    transition: 0.2s;
+    border-radius: 15px;
 }
 
 /* Skills */
@@ -187,13 +215,13 @@ header {
 .project-section {
     padding: 0 50px;
     margin-bottom: 100px;
-    background-color: black;
+    background-color: #484A47;
 }
 
 .project-section h2{
     font-size: 35px;
-    padding-top: 10px;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
 }
@@ -203,7 +231,7 @@ header {
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .card {
@@ -213,10 +241,16 @@ header {
     overflow: hidden;
     box-shadow: 0px 2px 4px black;
     margin: 20px;
-
     display: flex;
     flex-direction: column;
     min-height: 450px;
+    
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0, 1); */
+    border: 2px solid #364156;
 }
 
 .card img {
@@ -316,4 +350,18 @@ header {
     list-style: none;
     margin-top: 20px;
     line-height: 2;
+}
+
+.contact-section .group .text ul li a{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 2;
+    color: black;
+}
+
+.contact-section .group .text ul li a:hover{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 2;
+    color: #D66853;
 }
